@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">FlowersLand</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Read our mission</a></li>
+                      <li><a class="dropdown-item" href="#">Schedule our meeting</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Find your flower</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <section>
+            <div class="conteiner">
+                <div class="row align-items-center">
+                    <div class="col-sm-5 col-md-7">
+                        <h1 class="title zagolovok">Это сайт про цветы</h1>
+                    </div>
+                    <div class="col-sm-7 col-md-5">
+                        <img src="https://static.tildacdn.com/tild3566-3733-4665-b632-373361363534/piony.jpg" 
+                        alt="цветок"
+                        width = 100%>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="conteiner">
+                <h2 class="text-center">Learn more about flowers</h2>
+                <div class="row pt-5 pb-5">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://flawery.ru/image/thumb_610/products/167399/1214785_0.jpg" class="card-img-top" alt="buket1">
+                            <div class="card-body">
+                              <h5 class="card-title">Buket1</h5>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, numquam.</p>
+                              <a href="#" class="btn btn-primary">Learn more</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://dostavkatsvetov.ru/upload/iblock/8ac/8acaa33e70309852c84fb1e0c93772f3.jpg" class="card-img-top" alt="Buket2">
+                            <div class="card-body">
+                              <h5 class="card-title">Buket2</h5>
+                              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quaerat veritatis necessitatibus nobis, cupiditate autem facilis ipsam repellat. Itaque, facere.</p>
+                              <a href="#" class="btn btn-primary">Learn more</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://posiflora.com/wp-content/uploads/2024/04/freziya-819x1024.jpeg" class="card-img-top" alt="Buket3">
+                            <div class="card-body">
+                              <h5 class="card-title">Buket3</h5>
+                              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius possimus numquam, at maiores facilis tenetur!</p>
+                              <a href="#" class="btn btn-primary">Learn more</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                      </li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </section>
+        <section>
+            <div class="conteiner">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://i4.tabor.ru/feed/2020-06-30/7436122/2568350_760x500.jpg" class="d-block" alt="Our clients">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://rosenstrasse.ru/images/blog/2/%D0%BD%D1%80%D0%BA67%D0%B3.jpg" class="d-block" alt="Our clients">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.freeimages.com/images/premium/previews/1009/10093859-man-in-field-of-flowers.jpg" class="d-block" alt="Our clients">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <div class="conteiner">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input 
+                        type="email" 
+                        class="form-control" 
+                        id="exampleInputEmail1" 
+                        aria-describedby="emailHelp"
+                        placeholder="Enter your Email">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="conteiner">
+            <p>&copy; Made by BelovJS 2024</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
